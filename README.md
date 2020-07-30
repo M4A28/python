@@ -1,4 +1,2 @@
-# python
-#my python files 
-
-you will find somthing spical her 
+# python 
+These are a wide variety of Python codes available publicly
