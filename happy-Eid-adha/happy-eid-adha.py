@@ -20,7 +20,7 @@ try:
 		""")
 
 	mypic = Image.open(f"image/pic{menu}.jpg")
-	text = input("Enter your namde : ")
+	text = input("Enter your text : ")
 	qrdata = input("Enter Qr code data : ")
 
 	drowimge = ImageDraw.Draw(mypic)
