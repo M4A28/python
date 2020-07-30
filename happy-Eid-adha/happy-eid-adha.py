@@ -28,7 +28,7 @@ try:
 
 # make qr code 
 	MakeQRCode = qrcode.QRCode(box_size=5)
-	MakeQRCode.add_data(text)
+	MakeQRCode.add_data(qrdata)
 	QRCodeImage = MakeQRCode.make_image()
 	QRPostion = (mypic.size[0] - QRCodeImage.size[0], mypic.size[1] - QRCodeImage.size[1])
 	mypic.paste(QRCodeImage, QRPostion)
