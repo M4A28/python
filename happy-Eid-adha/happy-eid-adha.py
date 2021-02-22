@@ -2,6 +2,8 @@
 import qrcode 
 from PIL import Image, ImageFont, ImageDraw 
 import random 
+# TODO: add arabic suport.
+# TODO: rewrait the code to make it more functional.
 
 print("Wellcom to happy Eid program ")
 pics = ["pic1.jpg", "pic2.jpg", "pic2.jpg", "pic4.jpg"]
